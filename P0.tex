@@ -1,0 +1,67 @@
+\documentclass[a4paper]{article}
+
+\usepackage{fullpage}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{graphicx,tikz} 													%Drawing stuff
+\usetikzlibrary{matrix,arrows,positioning}					%Drawing stuff
+\setcounter{MaxMatrixCols}{20}
+\def\({\left (}
+\def\){\right )}
+\usepackage[shortlabels]{enumitem}
+\usepackage{underscore}
+\usepackage[caption=false]{subfig}
+\usepackage{float}
+\usepackage[toc,page]{appendix}										%Appendices
+\usepackage{relsize}
+\usepackage{eucal}															%Different \mathcal style
+
+\setlength\parindent{0pt}													%No indent
+
+\newcommand{\bb}[1]{\mathbb{#1}}
+\newcommand{\inv}{\text{Inv}}
+\newcommand{\Int}{\text{int}}
+\newcommand{\emb}{\text{emb}}
+\newcommand{\im}{\text{im}}
+\renewcommand{\^}[1]{\widehat{#1}}								%HATS
+\renewcommand{\sp}[2]{\langle #1, #2 \rangle}       %SCALAR PRODUCT
+\newcommand{\cl}[1]{\overline{#1}}								%CLOSURE
+\newcommand{\id}{\text{id}}												%IDENTITY MAP
+\newcommand{\pr}{\text{pr}}												%PROJECTION MAP
+\newcommand{\isom}{\text{Isom}}										%Isometry
+\newcommand{\cmap}{\text{Map}^\text{cont}}					%Continuous maps
+\newcommand{\mat}{\text{Mat}}											%Matrices
+\newcommand{\rel}{\text{rel }}											%Relative homotopy
+
+%For better \setminus
+%Requires tikz and amssymb
+\newcommand{\mysetminusD}{\hbox{\tikz{\draw[line width=0.6pt,line cap=round] (3pt,0) -- (0,6pt);}}}
+\newcommand{\mysetminusT}{\mysetminusD}
+\newcommand{\mysetminusS}{\hbox{\tikz{\draw[line width=0.45pt,line cap=round] (2pt,0) -- (0,4pt);}}}
+\newcommand{\mysetminusSS}{\hbox{\tikz{\draw[line width=0.4pt,line cap=round] (1.5pt,0) -- (0,3pt);}}}
+\newcommand{\mysetminus}{\mathbin{\mathchoice{\mysetminusD}{\mysetminusT}{\mysetminusS}{\mysetminusSS}}}
+%
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{examples}[theorem]{Examples}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{question}[theorem]{Question}
+
+\title{P0: Initial Group Selection}
+\author{Eric Berry}
+
+\begin{document}
+\maketitle
+
+My group will consist of myself. I will be solely responsible for P0 - P7. I am aiming to work on something related
+to multi-parameter persistence and/or the Gleason score project, that is yet to be determined. I found some papers
+on multi-parameter persistence by Carlsson and Zomorodian that I might look through to gain some more insight. If I
+end up working on the Gleason score project then I might talk/work some with Sawyer depending on what he is doing.
+
+\end{document}

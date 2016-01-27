@@ -1,0 +1,3 @@
+# ignore tex compiler files
+*.aux
+*.log
